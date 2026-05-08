@@ -51,13 +51,13 @@ flowchart TD
     GuardDuty --> SecurityHub
     SecurityHub -.->|Findings & Alerts| VerifiedAccess
 
-    style VPC fill:#FF9900,stroke:#232F3E,color:#fff
+    style VPC fill:#FFFFFF,stroke:#232F3E,color:#000000
     style PrivateSubnets fill:#1B660F,stroke:#fff,color:#fff
     style ZeroTrustLayer fill:#232F3E,stroke:#FF9900,color:#fff
     style Monitoring fill:#6B4C9A,stroke:#fff,color:#fff
-    style VerifiedAccess fill:#FF9900,stroke:#232F3E
-    style TrustProvider fill:#FF9900,stroke:#232F3E
-    style IAM fill:#FF9900,stroke:#232F3E
+    style VerifiedAccess fill:#FFFFFF,stroke:#232F3E,color:#000000
+    style TrustProvider fill:#FFFFFF,stroke:#232F3E,color:#000000
+    style IAM fill:#FFFFFF,stroke:#232F3E,color:#000000
     style Firewall fill:#232F3E,stroke:#FF9900,color:#fff
-    style GuardDuty fill:#FF9900,stroke:#232F3E
-    style SecurityHub fill:#FF9900,stroke:#232F3E
+    style GuardDuty fill:#FFFFFF,stroke:#232F3E,color:#000000
+    style SecurityHub fill:#FFFFFF,stroke:#232F3E,color:#000000
