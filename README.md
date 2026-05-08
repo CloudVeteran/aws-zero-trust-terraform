@@ -51,7 +51,7 @@ flowchart TD
     GuardDuty --> SecurityHub
     SecurityHub -.->|Findings & Alerts| VerifiedAccess
 
-    style VPC fill:#FFFFFF,stroke:#232F3E,color:#000000
+    style VPC fill:#B3D9FF,stroke:#232F3E,color:#000000
     style PrivateSubnets fill:#1B660F,stroke:#fff,color:#fff
     style ZeroTrustLayer fill:#232F3E,stroke:#FF9900,color:#fff
     style Monitoring fill:#6B4C9A,stroke:#fff,color:#fff
